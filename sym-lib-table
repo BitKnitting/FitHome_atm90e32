@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name FitHome_atm90e32)(type Legacy)(uri /Users/mj/FitHome/repos/FitHome_PCBs/FitHome_atm90e32/FitHome_atm90e32/libs/FitHome_atm90e32.lib)(options "")(descr ""))
+  (lib (name TRS35_Female)(type Legacy)(uri ${FH_POWER}/FitHome.lib)(options "")(descr ""))
+  (lib (name Fithome)(type Legacy)(uri /Users/mj/FitHome/repos/FitHome_PCBs/FitHome_Power_PCB/Fithome.lib)(options "")(descr ""))
+  (lib (name FitHome_atm90e32-rescue)(type Legacy)(uri ${KIPRJMOD}/FitHome_atm90e32-rescue.lib)(options "")(descr ""))
+  (lib (name FitHome_pwr_jack)(type Legacy)(uri ${FH_POWER}/PJ-002AH-SMT-TR.lib)(options "")(descr ""))
+  (lib (name PJ-002AH-SMT-TR)(type Legacy)(uri /Users/mj/FitHome/repos/FitHome_PCBs/FitHome_atm90e32/FitHome_atm90e32/libs/PJ-002AH-SMT-TR.lib)(options "")(descr ""))
+)

@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name HappyDayEnergy)(type KiCad)(uri ${FH_POWER}/HappyDayEnergyMonitor.pretty)(options "")(descr ""))
+  (lib (name PJ-002AH-SMT-TR)(type Legacy)(uri ${FH_POWER}/PJ-002AH-SMT-TR.mod)(options "")(descr ""))
+  (lib (name XTAL_FA-238_25.0000MB-C3)(type Legacy)(uri ${FH_POWER}/XTAL_FA-238_25.0000MB-C3.mod)(options "")(descr ""))
+  (lib (name WSON-8)(type Legacy)(uri ${FH_POWER}/WSON-8.mod)(options "")(descr ""))
+  (lib (name ATM90E32AS-AU-R)(type Legacy)(uri ${FH_POWER}/ATM90E32AS-AU-R.mod)(options "")(descr ""))
+  (lib (name 200uF_CAP)(type KiCad)(uri ${FH_POWER}/200uFCap.pretty)(options "")(descr ""))
+)
