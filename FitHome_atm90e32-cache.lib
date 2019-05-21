@@ -1,29 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# FitHome_atm90e32-rescue_TRS35_3-TRS35_Female
+# FitHome_atm90e32-rescue_ATM90E32-FitHome_atm90e32
 #
-DEF FitHome_atm90e32-rescue_TRS35_3-TRS35_Female U 0 40 Y Y 1 F N
-F0 "U" 0 -250 50 H V C CNN
-F1 "FitHome_atm90e32-rescue_TRS35_3-TRS35_Female" 0 200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 100 50 -100 0 1 0 N
-P 4 0 0 0 100 -50 150 -100 200 -50 350 -50 N
-P 4 0 0 0 100 50 150 100 200 50 350 50 N
-P 3 0 1 0 0 -100 0 -200 350 -200 N
-X sleeveGND 1 550 -200 200 L 50 40 1 1 I
-X tip+ 2 550 50 200 L 50 40 1 1 I
-X ring- 3 550 -50 200 L 50 40 1 1 I
-ENDDRAW
-ENDDEF
-#
-# FitHome_atm90e32_ATM90E32
-#
-DEF FitHome_atm90e32_ATM90E32 U 0 40 Y Y 1 F N
+DEF FitHome_atm90e32-rescue_ATM90E32-FitHome_atm90e32 U 0 40 Y Y 1 F N
 F0 "U" 1600 1300 50 H V C CNN
-F1 "FitHome_atm90e32_ATM90E32" 900 400 50 H V C CNN
+F1 "FitHome_atm90e32-rescue_ATM90E32-FitHome_atm90e32" 900 400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -79,11 +61,11 @@ X I4P 9 -200 100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# FitHome_pwr_jack_PJ-002AH-SMT-TR
+# FitHome_atm90e32-rescue_PJ-002AH-SMT-TR-FitHome_pwr_jack
 #
-DEF FitHome_pwr_jack_PJ-002AH-SMT-TR J 0 40 Y N 1 L N
+DEF FitHome_atm90e32-rescue_PJ-002AH-SMT-TR-FitHome_pwr_jack J 0 40 Y N 1 L N
 F0 "J" -300 200 50 H V L BNN
-F1 "FitHome_pwr_jack_PJ-002AH-SMT-TR" -300 -200 50 H V L BNN
+F1 "FitHome_atm90e32-rescue_PJ-002AH-SMT-TR-FitHome_pwr_jack" -300 -200 50 H V L BNN
 F2 "CUI_PJ-002AH-SMT-TR" 0 0 50 H I L BNN
 F3 "Manufacturer recommendations" 0 0 50 H I L BNN
 F4 "CUI INC" 0 0 50 H I L BNN
@@ -106,6 +88,24 @@ X 1 1A 200 100 200 L 40 40 0 0 P
 X 1 1B 200 100 200 L 40 40 0 0 P
 X 2 2 200 -100 200 L 40 40 0 0 P
 X 3 3 200 0 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# FitHome_atm90e32-rescue_TRS35_3-TRS35_Female
+#
+DEF FitHome_atm90e32-rescue_TRS35_3-TRS35_Female U 0 40 Y Y 1 F N
+F0 "U" 0 -250 50 H V C CNN
+F1 "FitHome_atm90e32-rescue_TRS35_3-TRS35_Female" 0 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 100 50 -100 0 1 0 N
+P 4 0 0 0 100 -50 150 -100 200 -50 350 -50 N
+P 4 0 0 0 100 50 150 100 200 50 350 50 N
+P 3 0 1 0 0 -100 0 -200 350 -200 N
+X sleeveGND 1 550 -200 200 L 50 40 1 1 I
+X tip+ 2 550 50 200 L 50 40 1 1 I
+X ring- 3 550 -50 200 L 50 40 1 1 I
 ENDDRAW
 ENDDEF
 #

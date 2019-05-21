@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FitHome_atm90e32:ATM90E32 U4
+L FitHome_atm90e32-rescue:ATM90E32-FitHome_atm90e32 U4
 U 1 1 5CDDCE86
 P 8150 4150
 F 0 "U4" H 8250 5500 50  0000 L CNN
@@ -323,6 +323,7 @@ F 0 "U1" H 1106 7675 50  0000 C CNN
 F 1 "TRS35_3" H 1106 7584 50  0000 C CNN
 F 2 "HappyDayEnergy:Audio-Jack" H 850 7400 50  0001 C CNN
 F 3 "" H 850 7400 50  0001 C CNN
+F 4 "SJ-3523-SMT-TR" H 850 7400 50  0001 C CNN "PN"
 	1    850  7400
 	1    0    0    -1  
 $EndComp
@@ -343,6 +344,7 @@ F 0 "U2" H 2756 7675 50  0000 C CNN
 F 1 "TRS35_3" H 2756 7584 50  0000 C CNN
 F 2 "HappyDayEnergy:Audio-Jack" H 2500 7400 50  0001 C CNN
 F 3 "" H 2500 7400 50  0001 C CNN
+F 4 "SJ-3523-SMT-TR" H 2500 7400 50  0001 C CNN "PN"
 	1    2500 7400
 	1    0    0    -1  
 $EndComp
@@ -362,7 +364,7 @@ Burden Resistor \n(see OpenEnergyMonitor learn)
 Text Notes 1500 5900 0    50   ~ 0
 Low Pass\nFilter
 $Comp
-L FitHome_pwr_jack:PJ-002AH-SMT-TR J1
+L FitHome_atm90e32-rescue:PJ-002AH-SMT-TR-FitHome_pwr_jack J1
 U 1 1 5CDEDA12
 P 1050 2500
 F 0 "J1" H 1044 2840 50  0000 C CNN
@@ -624,7 +626,7 @@ L device:C C4
 U 1 1 5CE46126
 P 2750 3950
 F 0 "C4" H 2635 3904 50  0000 R CNN
-F 1 ".033uF" H 2635 3995 50  0000 R CNN
+F 1 ".033u" H 2635 3995 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2788 3800 50  0001 C CNN
 F 3 "" H 2750 3950 50  0001 C CNN
 F 4 "C" H 2750 3950 50  0001 C CNN "PN"
@@ -993,6 +995,7 @@ F 0 "J2" H 10680 5442 50  0000 L CNN
 F 1 "Conn_01x09" H 10680 5351 50  0000 L CNN
 F 2 "HappyDayEnergy:9Pin-bb" H 10600 5400 50  0001 C CNN
 F 3 "~" H 10600 5400 50  0001 C CNN
+F 4 "X" H 10600 5400 50  0001 C CNN "PN"
 	1    10600 5400
 	1    0    0    -1  
 $EndComp
@@ -1006,11 +1009,11 @@ Text GLabel 10400 5300 0    50   Input ~ 0
 SCLK
 Text GLabel 10400 5400 0    50   Input ~ 0
 ~CS
-Text GLabel 10400 5500 0    50   Input ~ 0
+Text GLabel 10400 5700 0    50   Input ~ 0
 IRQ1
 Text GLabel 10400 5600 0    50   Input ~ 0
 IRQ0
-Text GLabel 10400 5700 0    50   Input ~ 0
+Text GLabel 10400 5500 0    50   Input ~ 0
 WARN
 Wire Wire Line
 	10400 5800 10300 5800
@@ -1091,7 +1094,7 @@ L device:C C16
 U 1 1 5CE05FDB
 P 4200 3900
 F 0 "C16" H 4085 3854 50  0000 R CNN
-F 1 ".033uF" H 4085 3945 50  0000 R CNN
+F 1 ".033u" H 4085 3945 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4238 3750 50  0001 C CNN
 F 3 "" H 4200 3900 50  0001 C CNN
 F 4 "C" H 4200 3900 50  0001 C CNN "PN"
